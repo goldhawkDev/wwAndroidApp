@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/scrollView1">
+<LinearLayout
+  
+  android:layout_width="match_parent"
+  android:orientation="vertical" android:layout_height="match_parent">
+   
+    
+    <TableLayout 
+    	android:id="@+id/tableLayout1" 
+    	android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="25dip" android:layout_weight="1">
+        	<TableRow 
+        		android:id="@+id/tableRow1" 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content">
+        		</TableRow>
+        
+        	 <TableRow 
+        		android:id="@+id/tableRow1" 
+        		android:layout_height="wrap_content" android:layout_width="match_parent">
+        	     <TextView 
+        	     	android:text="@string/UKProtein" 
+        	     	android:id="@+id/textView1" 
+        	     	android:layout_width="150dip" 
+        	     	android:layout_height="wrap_content"
+        	     	>
+        	     	</TextView>
+        	     <EditText 
+        	     	android:text="" 
+        	     	android:id="@+id/proteinEdit" 
+        	     	android:layout_height="wrap_content" android:layout_width="50dip"
+        	     	android:inputType="numberDecimal">
+        	     	</EditText>
+        		</TableRow>
+        		
+        	 <TableRow 
+        		android:id="@+id/tableRow1" 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content">
+        	    	
+        	    	<TextView 
+	        	     	android:text="@string/UKCarbs" 
+	        	     	android:id="@+id/textView2" 
+	        	     	android:layout_width="wrap_content" 
+	        	     	android:layout_height="wrap_content">
+	        	    </TextView>
+        	     	
+        	     	<EditText 
+        	     		android:text="" 
+        	     		android:id="@+id/carbsEdit" 
+        	     		android:layout_width="wrap_content" 
+        	     		android:layout_height="wrap_content" 
+        	     		android:inputType="numberDecimal">
+        	     	</EditText>
+        	     	
+        	 </TableRow>
+        
+        	 <TableRow 
+        		android:id="@+id/tableRow1" 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content">
+        	     <TextView android:text="@string/UKFat" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        	     <EditText android:text="" android:id="@+id/fatEdit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:inputType="numberDecimal"></EditText>
+        	 </TableRow>
+        
+        	 <TableRow 
+        		android:id="@+id/tableRow1" 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content">
+        	     <TextView android:layout_width="wrap_content" android:text="@string/UKFibre" android:id="@+id/textView2" android:layout_height="wrap_content"></TextView>
+        	     <EditText android:text="" android:id="@+id/fibreEdit" android:layout_width="wrap_content" android:inputType="numberDecimal" android:layout_height="wrap_content"></EditText>
+        	 </TableRow>
+    </TableLayout>
+    <Button android:text="Calculate Points" android:layout_marginTop="10dip" android:layout_width="wrap_content" android:layout_gravity="right" android:layout_height="wrap_content" android:id="@+id/calculatePointsBttn"></Button>
+    <TextView android:text="TextView" android:id="@+id/pointsTotal" android:layout_width="wrap_content" android:layout_weight="1" android:layout_height="wrap_content"></TextView>
+
+</LinearLayout>
+</ScrollView>

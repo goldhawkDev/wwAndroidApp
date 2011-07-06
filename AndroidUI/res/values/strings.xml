@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="hello">Hello World, Main!</string>
-    <string name="app_name">WW Android App</string>
+    <string name="app_name">WW Buddy - Goldhawk Apps</string>
+    <string name="UKFat">Fat</string>
+    <string name="UKProtein">Protein</string>
+    <string name="UKCarbs">Carbs</string>
+    <string name="UKFibre">Fibre</string>
 </resources>

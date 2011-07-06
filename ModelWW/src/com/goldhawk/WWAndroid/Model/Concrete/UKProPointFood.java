@@ -1,6 +1,8 @@
-package Concrete;
+package com.goldhawk.WWAndroid.Model.Concrete;
 
-import Abstract.AFood;
+import com.goldhawk.WWAndroid.Model.Abstract.AFood;
+
+
 
 public class UKProPointFood extends AFood {
 

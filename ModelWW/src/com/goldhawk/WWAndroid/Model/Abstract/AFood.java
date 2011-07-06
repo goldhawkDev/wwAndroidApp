@@ -1,4 +1,4 @@
-package Abstract;
+package com.goldhawk.WWAndroid.Model.Abstract;
 
 
 public abstract class AFood implements IFood {
